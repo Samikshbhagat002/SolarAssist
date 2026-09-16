@@ -1,0 +1,9 @@
+{
+    "features": [
+        "monthly_consumption_kwh",
+        "future_usage_growth_pct"
+    ],
+    "target": "recommended_capacity_kw",
+    "model": "Gradient Boosting",
+    "label_source": "method_derived"
+}

@@ -1,0 +1,19 @@
+{
+    "method": "observed_monthly_generation_per_kwp",
+    "statistic": "median",
+    "formula": "monthly_generation_kwh / kWp",
+    "train_fraction": 0.8,
+    "split_method": "time_based",
+    "training_period": {
+        "start": "2020-01",
+        "end": "2021-10"
+    },
+    "test_period": {
+        "start": "2021-11",
+        "end": "2022-04"
+    },
+    "training_rows": 423,
+    "testing_rows": 150,
+    "data_leakage": false,
+    "note": "Monthly empirical yields were calculated only from the training period. The test period was excluded."
+}

@@ -1,0 +1,37 @@
+{
+    "features": [
+        "kWp",
+        "air_temperature_mean_c",
+        "apparent_temperature_mean_c",
+        "dew_point_mean_c",
+        "relative_humidity_mean_pct",
+        "month_sin",
+        "month_cos"
+    ],
+    "target": "monthly_generation_kwh",
+    "best_model": "Gradient Boosting",
+    "model_selection_method": "TimeSeriesSplit_cross_validation",
+    "cv_splits": 5,
+    "best_cv_rmse_mean": 3827.163402882554,
+    "best_cv_rmse_std": 1766.5423134753603,
+    "split_method": "chronological_time_based",
+    "train_period": {
+        "start": "2020-01",
+        "end": "2021-10"
+    },
+    "test_period": {
+        "start": "2021-11",
+        "end": "2022-04"
+    },
+    "dataset_rows": 573,
+    "training_rows": 423,
+    "testing_rows": 150,
+    "final_test_metrics": {
+        "MAE_kWh": 1903.3778301205532,
+        "RMSE_kWh": 3021.6607951540254,
+        "R2": 0.9399470209270623,
+        "MAPE_percent": 27.19138632179428,
+        "sMAPE_percent": 20.96822199210229
+    },
+    "geographic_scope": "Single campus/location dataset. Results should not be interpreted as generalizing geographically."
+}

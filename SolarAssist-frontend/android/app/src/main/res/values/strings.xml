@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SolarAssist</string>
+    <string name="title_activity_main">SolarAssist</string>
+    <string name="package_name">com.solarassist.app</string>
+    <string name="custom_url_scheme">com.solarassist.app</string>
+</resources>

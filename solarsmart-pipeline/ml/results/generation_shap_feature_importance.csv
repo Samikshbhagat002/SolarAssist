@@ -1,0 +1,10 @@
+feature,mean_absolute_shap,rank
+kWp,6382.344,1
+month_cos,2056.1833,2
+air_temperature_mean_c,467.9519,3
+relative_humidity_mean_pct,429.46454,4
+apparent_temperature_mean_c,304.92584,5
+dew_point_mean_c,194.9213,6
+month_sin,101.21274,7
+lat,0.0,8
+Lon,0.0,9

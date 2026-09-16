@@ -1,0 +1,8 @@
+Feature,Importance
+kWp,0.793009626057786
+month_cos,0.17127285142525253
+month_sin,0.010328834104227502
+air_temperature_mean_c,0.008522398020884479
+relative_humidity_mean_pct,0.008230908791970326
+dew_point_mean_c,0.005507786783822069
+apparent_temperature_mean_c,0.0031275948160569204

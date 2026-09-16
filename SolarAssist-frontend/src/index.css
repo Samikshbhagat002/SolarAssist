@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1E3A8A;      /* deep blue - headers, nav */
+  --color-primary-light: #3B82F6; /* accent blue - buttons, links */
+  --color-secondary: #EFF6FF;     /* pale blue - section backgrounds */
+  --color-white: #FFFFFF;
+  --color-text: #0F172A;          /* near-black for readability */
+  --color-muted: #64748B;         /* grey-blue for secondary text */
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #f0f9ff;
+  color: var(--color-text);
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+@keyframes solarAssistSplash {
+  0% {
+    opacity: 0;
+    transform: scale(0.85) translateY(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.02) translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.solarassist-splash-logo {
+  animation: solarAssistSplash 1.7s ease-out both;
+}

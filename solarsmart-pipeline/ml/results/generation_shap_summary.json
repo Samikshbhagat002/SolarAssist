@@ -1,0 +1,64 @@
+{
+  "model": "XGBoost",
+  "task": "Monthly solar generation prediction",
+  "rows_explained": 573,
+  "features_explained": [
+    "kWp",
+    "lat",
+    "Lon",
+    "air_temperature_mean_c",
+    "apparent_temperature_mean_c",
+    "dew_point_mean_c",
+    "relative_humidity_mean_pct",
+    "month_sin",
+    "month_cos"
+  ],
+  "base_value": 8438.0009765625,
+  "global_feature_importance": [
+    {
+      "rank": 1,
+      "feature": "kWp",
+      "mean_absolute_shap": 6382.34423828125
+    },
+    {
+      "rank": 2,
+      "feature": "month_cos",
+      "mean_absolute_shap": 2056.183349609375
+    },
+    {
+      "rank": 3,
+      "feature": "air_temperature_mean_c",
+      "mean_absolute_shap": 467.951904296875
+    },
+    {
+      "rank": 4,
+      "feature": "relative_humidity_mean_pct",
+      "mean_absolute_shap": 429.46453857421875
+    },
+    {
+      "rank": 5,
+      "feature": "apparent_temperature_mean_c",
+      "mean_absolute_shap": 304.92584228515625
+    },
+    {
+      "rank": 6,
+      "feature": "dew_point_mean_c",
+      "mean_absolute_shap": 194.92129516601562
+    },
+    {
+      "rank": 7,
+      "feature": "month_sin",
+      "mean_absolute_shap": 101.21273803710938
+    },
+    {
+      "rank": 8,
+      "feature": "lat",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "rank": 9,
+      "feature": "Lon",
+      "mean_absolute_shap": 0.0
+    }
+  ]
+}

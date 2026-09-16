@@ -1,0 +1,18 @@
+{
+    "model": "Gradient Boosting",
+    "features": [
+        "monthly_consumption_kwh",
+        "future_usage_growth_pct"
+    ],
+    "label_source": "method_derived",
+    "global_importance": [
+        {
+            "feature": "monthly_consumption_kwh",
+            "mean_abs_shap": 1.88774974604338
+        },
+        {
+            "feature": "future_usage_growth_pct",
+            "mean_abs_shap": 0.19689545466467887
+        }
+    ]
+}
